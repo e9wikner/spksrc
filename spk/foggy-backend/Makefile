@@ -1,5 +1,5 @@
 SPK_NAME = foggy-backend
-SPK_VERS = 0.1.2
+SPK_VERS = 0.1.2.1
 SPK_REV = 1
 SPK_ICON = src/foggy-backend.png
 
