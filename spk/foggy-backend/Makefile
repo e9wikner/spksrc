@@ -19,6 +19,9 @@ HOMEPAGE = https://gitlab.com/e9wikner/foggy
 LICENSE = Apache-2.0
 
 SERVICE_SETUP = src/service-setup.sh
+SERVICE_PORT = 21210
+SERVICE_PORT_TITLE = $(DISPLAY_NAME)
+ADMIN_PORT = $(SERVICE_PORT)
 
 STARTABLE = yes
 

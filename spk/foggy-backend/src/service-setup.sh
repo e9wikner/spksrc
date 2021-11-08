@@ -5,6 +5,8 @@ VIRTUALENV="${PYTHON_DIR}/python3 -m venv"
 PIP=${SYNOPKG_PKGDEST}/env/bin/pip3
 
 SERVICE_COMMAND="${SYNOPKG_PKGDEST}/env/bin/foggy --disable-mdns"
+SVC_BACKGROUND=y
+SVC_WRITE_PID=y
 
 service_postinst ()
 {
