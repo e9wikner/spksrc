@@ -1,6 +1,6 @@
 SPK_NAME = foggy-backend
-SPK_VERS = 0.1.2.1
-SPK_REV = 1
+SPK_VERS = 0.1.2.2
+SPK_REV = 0
 SPK_ICON = src/foggy-backend.png
 
 PIP = $(WORK_DIR)/../../../native/python3/work-native/install/usr/local/bin/pip

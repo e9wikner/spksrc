@@ -1,2 +1,3 @@
-foggy-backend==0.1.2.1
+#foggy-backend==0.1.2.1
 #-e git+https://git@gitlab.com/e9wikner/foggy.git@434eba5b9ca80067284da8f249c685b12d4a3e23#egg=foggy_backend
+-e git+https://git@gitlab.com/e9wikner/foggy.git@add_username#egg=foggy_backend
