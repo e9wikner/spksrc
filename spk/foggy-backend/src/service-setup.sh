@@ -8,6 +8,8 @@ SERVICE_COMMAND="${SYNOPKG_PKGDEST}/env/bin/foggy --disable-mdns"
 SVC_BACKGROUND=y
 SVC_WRITE_PID=y
 
+GROUP="sc-download"
+
 service_postinst ()
 {
     # Create a Python virtualenv
