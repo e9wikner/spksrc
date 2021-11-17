@@ -4,7 +4,7 @@ PATH="${SYNOPKG_PKGDEST}/bin:${SYNOPKG_PKGDEST}/env/bin:${PYTHON_DIR}:${PATH}"
 VIRTUALENV="${PYTHON_DIR}/python3 -m venv"
 PIP=${SYNOPKG_PKGDEST}/env/bin/pip3
 
-SERVICE_COMMAND="${SYNOPKG_PKGDEST}/env/bin/foggy --disable-mdns"
+SERVICE_COMMAND="${SYNOPKG_PKGDEST}/env/bin/foggy"
 SVC_BACKGROUND=y
 SVC_WRITE_PID=y
 

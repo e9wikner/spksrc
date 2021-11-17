@@ -1,5 +1,5 @@
 SPK_NAME = foggy-backend
-SPK_VERS = 0.1.2.2
+SPK_VERS = 0.1.3.1
 SPK_REV = 0
 SPK_ICON = src/foggy-backend.png
 
@@ -13,7 +13,7 @@ MAINTAINER = e9wikner
 DESCRIPTION = "Foggy keeps photos and videos shot with a smartphone in sync between devices. It does so without requiring a separate app to delete, update or add files. On an iPhone you will install the app and keep on using the built-in Photos app to edit and sort your photos and videos. When space gets low on the device you move the photos to an archive on the backend and clear the phone memory knowing that you have copies on the server."
 DISPLAY_NAME = foggy-backend
 
-CHANGELOG = "0.1.2 initial version"
+CHANGELOG = "0.1.3 Updated with multicast dns support so that server is announced"
 
 HOMEPAGE = https://gitlab.com/e9wikner/foggy
 LICENSE = Apache-2.0
