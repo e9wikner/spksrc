@@ -27,7 +27,16 @@ STARTABLE = yes
 
 SPK_USR_LOCAL_LINKS = bin:env/bin/foggy
 
+INSTALLER_SCRIPT = src/installer.sh
+CONF_DIR         = src/conf/
+POST_STRIP_TARGET = foggy_backend_extra_install
+
 # Pure Python package, make sure ARCH is not defined
 override ARCH=
 
 include ../../mk/spksrc.spk.mk
+
+.PHONY: foggy_backend_extra_install
+foggy_backend_extra_install:
+	install -m 755 -d $(STAGING_DIR)/etc/avahi/services
+	install -m 644 src/foggy-backend.service -t $(STAGING_DIR)/etc/avahi/services/
